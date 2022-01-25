@@ -35,12 +35,12 @@ namespace Pokemon_Battle
         }
         public enum Category
         {
-            mouse
+            genetic
         }
 
         public enum Abilities
         {
-            static_
+            pressure
         }
         public enum Type
         {
