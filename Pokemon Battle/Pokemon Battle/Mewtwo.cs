@@ -19,8 +19,6 @@ namespace Pokemon_Battle
             abilities = Abilities.pressure;
             type = Type.psychic;
             wealnesses = Type.Ghost;
-
-
         }
     }
 }

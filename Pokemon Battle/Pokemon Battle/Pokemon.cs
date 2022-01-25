@@ -46,7 +46,9 @@ namespace Pokemon_Battle
         {
             Bug,
             Ghost,
-            psychic
+            psychic,
+            Dark
+
         }
     }
 }
