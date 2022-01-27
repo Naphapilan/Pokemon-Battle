@@ -44,11 +44,7 @@ namespace Pokemon_Battle
         }
         public enum Type
         {
-            Bug,
-            Ghost,
-            psychic,
-            Dark
-
+            Bug, Ghost, psychic, Dark
         }
     }
 }

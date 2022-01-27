@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Pokemon_Battle.Properties;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,15 +11,17 @@ namespace Pokemon_Battle
     {
         public Mewtwo()
         {
-            name = "mewtwo";
-            height = 6.07;
-            weight = 269.0;
+            base.name = "mewtwo";
+            base.height = 6.07;
+            base.weight = 269.0;
 
-            gender = Gender.male;
-            category = Category.genetic;
-            abilities = Abilities.pressure;
-            type = Type.psychic;
-            wealnesses = Type.Ghost;
+            base.gender = Gender.male;
+            base.category = Category.genetic;
+            base.abilities = Abilities.pressure;
+            base.type = Type.psychic;
+            base.wealnesses = Type.Ghost;
+            
+            base.image = Resources.Mewtwo;
         }
     }
 }

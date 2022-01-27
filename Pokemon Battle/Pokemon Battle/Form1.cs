@@ -11,5 +11,12 @@ namespace Pokemon_Battle
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Image temp = this.pictureBox1.Image;
+            this.pictureBox1.Image = this.pictureBox2.Image;
+            this.pictureBox2.Image = temp;
+        }
     }
 }
