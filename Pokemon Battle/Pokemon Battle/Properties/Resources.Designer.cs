@@ -10,9 +10,8 @@
 
 namespace Pokemon_Battle.Properties {
     using System;
-    using System.Drawing;
-
-
+    
+    
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
     /// </summary>
@@ -32,9 +31,7 @@ namespace Pokemon_Battle.Properties {
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
         internal Resources() {
         }
-
-        public static Bitmap Mewtwo { get; internal set; }
-
+        
         /// <summary>
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
@@ -69,6 +66,16 @@ namespace Pokemon_Battle.Properties {
         internal static System.Drawing.Bitmap _006 {
             get {
                 object obj = ResourceManager.GetObject("_006", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _025 {
+            get {
+                object obj = ResourceManager.GetObject("025", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

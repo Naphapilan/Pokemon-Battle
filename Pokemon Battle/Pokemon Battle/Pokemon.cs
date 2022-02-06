@@ -8,6 +8,7 @@ namespace Pokemon_Battle
 {
     internal class Pokemon
     {
+
         protected double height;
         protected double weight;
         protected string name;
@@ -16,17 +17,17 @@ namespace Pokemon_Battle
         protected Abilities abilities;
         protected Bitmap image;
         protected Type type;
-        protected Type wealnesses;
+        protected Type weaknesses;
 
-        public string getName()
+        public string getName() 
         {
             return this.name;
         }
-
-        public Bitmap getImage()
+        public  Bitmap getImage()
         {
             return this.image;
-        }
+        }    
+      }   
 
         public enum Gender
         {
@@ -35,16 +36,17 @@ namespace Pokemon_Battle
         }
         public enum Category
         {
-            genetic
-        }
+            genetic,
+        flame
+    }
 
         public enum Abilities
         {
-            pressure
-        }
+            pressure,
+        blaze
+    }
         public enum Type
         {
-            Bug, Ghost, psychic, Dark
+            bug, ghost, psychic, dark
         }
-    }
 }

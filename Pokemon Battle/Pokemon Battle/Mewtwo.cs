@@ -19,9 +19,9 @@ namespace Pokemon_Battle
             base.category = Category.genetic;
             base.abilities = Abilities.pressure;
             base.type = Type.psychic;
-            base.wealnesses = Type.Ghost;
+            base.weaknesses = Type.ghost;
             
-            base.image = Resources.Mewtwo;
+            base.image = Resources._150;
         }
     }
 }
