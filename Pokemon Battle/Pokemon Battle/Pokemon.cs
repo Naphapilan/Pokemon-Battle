@@ -32,21 +32,19 @@ namespace Pokemon_Battle
         public enum Gender
         {
             male,
-            female
+            female,unknow
         }
         public enum Category
         {
-            genetic,
-        flame
-    }
+            genetic,flame,mouse,dragon,playful,high_temp
+        }
 
         public enum Abilities
         {
-            pressure,
-        blaze
-    }
+            pressure,blaze,static_, inner_focus,gluttony
+        }
         public enum Type
         {
-            bug, ghost, psychic, dark
-        }
+            bug, ghost, psychic, dark, flying, fire, weter, electric, rock, ground, dragon,fairy,ice,fighting
+    }
 }

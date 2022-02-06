@@ -16,7 +16,7 @@ namespace Pokemon_Battle
             base.weight = 13.2;
 
             base.gender = Gender.male;
-            base.category = Category.mounse;
+            base.category = Category.mouse;
             base.abilities = Abilities.static_;
             base.type = Type.electric;
             base.weaknesses = Type.ground;
